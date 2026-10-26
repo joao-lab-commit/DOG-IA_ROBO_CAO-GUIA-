@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dog_ia_core</name>
+  <version>0.0.1</version>
+  <description>Pacote principal do robo cao-guia DOG-IA</description>
+  <maintainer email="marco.silva.101692@a.fecaf.com">Marco</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
